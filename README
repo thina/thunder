@@ -1,0 +1,9 @@
+# Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet controller
+DEVICE=eth0
+BOOTPROTO=dhcp
+HWADDR=00:1F:D0:33:1D:3C
+ONBOOT=yes
+TYPE=Ethernet
+USERCTL=no
+IPV6INIT=no
+PEERDNS=yes
