@@ -1,3 +1,4 @@
 <?php
-echo "Hello World";
+echo "searching for what thina?";
+echo "where is god ?:'
 ?>
