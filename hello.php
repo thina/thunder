@@ -12,14 +12,14 @@ class Example extends PHPUnit_Extensions_SeleniumTestCase
 
   public function testMyTestCase()
   {
-    $this->open("/");
+    $this->open("/echo.php");
     try {
-        $this->assertTrue($this->isTextPresent("hello"));
+        $this->assertTrue($this->isTextPresent("hello world"));
     } catch (PHPUnit_Framework_AssertionFailedError $e) {
         array_push($this->verificationErrors, $e->toString());
     }
 #    try {
-#        $this->assertTrue($this->isTextPresent("helloworld"));
+#        $this->assertTrue($this->isTextPresent("hello world"));
 #    } catch (PHPUnit_Framework_AssertionFailedError $e) {
 #        array_push($this->verificationErrors, $e->toString());
 #    }
